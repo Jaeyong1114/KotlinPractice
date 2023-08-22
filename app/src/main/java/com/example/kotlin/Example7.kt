@@ -1,12 +1,12 @@
 package com.example.kotlin
 
 fun main() {
-    var name : String = "재용" // 이값에 는 널이 들어갈수 없음 이 이문장에 포함이 되어있음.
+    var name : String? = "재용" // 이값에 는 널이 들어갈수 없음 이 이문장에 포함이 되어있음.
     var number : Int = 10 //마찬가지로 number 에도 null 이 들어갈 수 없음
 
 
     // null 을 넣고싶으면
-    var nickname: String? = null // 어떤 타입에 Null 을 붙이면 해당 타입이 Null 가능
+    var nickname: String? = null // 어떤 타입에 ? 을 붙이면 해당 타입이 Null 가능
     var secondNumber : Int? = null
 
    /* val result = if(nickname == null){
